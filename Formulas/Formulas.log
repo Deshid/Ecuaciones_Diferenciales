@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.11)  2 SEP 2024 21:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.11)  3 SEP 2024 00:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -752,40 +752,66 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
 (C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (10.26587pt too wide) detected at line 105
+[]
+ []
+
+
+Overfull \hbox (8.30756pt too wide) detected at line 108
+[]
+ []
+
+
+Overfull \hbox (8.4058pt too wide) detected at line 147
+\OT1/cmr/m/n/12 ([] \OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )[] = \OMS/cmsy/m/n/12 ^^
+@ [] \OML/cmm/m/it/12 x [] x
+ []
+
+
 
 <LogoCat.png.jpg, id=4, 1027.84pt x 1027.84pt>
 File: LogoCat.png.jpg Graphic file (type jpg)
 <use LogoCat.png.jpg>
-Package pdftex.def Info: LogoCat.png.jpg  used on input line 128.
+Package pdftex.def Info: LogoCat.png.jpg  used on input line 153.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
 [1{C:/Users/Ashdr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
- <./LogoCat.png.jpg>] (Formulas.aux)
+ <./LogoCat.png.jpg>]
+
+File: LogoCat.png.jpg Graphic file (type jpg)
+<use LogoCat.png.jpg>
+Package pdftex.def Info: LogoCat.png.jpg  used on input line 207.
+(pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
+[2] (Formulas.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16026 strings out of 473938
- 342187 string characters out of 5727391
- 1937893 words of memory out of 5000000
- 38618 multiletter control sequences out of 15000+600000
- 563903 words of font info for 58 fonts, out of 8000000 for 9000
+ 16037 strings out of 473938
+ 342366 string characters out of 5727391
+ 1942893 words of memory out of 5000000
+ 38626 multiletter control sequences out of 15000+600000
+ 564831 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,15n,107p,11042b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,15n,107p,11042b,346s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ashdr/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Ashdr/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ashdr/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Formulas.pdf (1 page, 163438 bytes).
+cmbx12.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Ashdr/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ashdr/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ashdr/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/As
+hdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
+C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb>
+Output written on Formulas.pdf (2 pages, 195670 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

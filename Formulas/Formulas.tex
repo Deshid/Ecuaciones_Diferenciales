@@ -2,7 +2,7 @@
 \setlength{\headheight}{61.24997pt} % Definition der KOMA-Textklasse
 \usepackage{amsmath}
 \usepackage{tikz} % Add this line to include the tikz package
-\usepackage{fancyhdr}
+\usepackage{fancyhdr} 
 \usepackage{graphicx}
 \usepackage{ragged2e} % Add this line to include the ragged2e package
 \usepackage{multicol} % Add this line to include the multicol package
@@ -47,7 +47,7 @@
         \begin{equation*}
             \int a^x \, dx = \frac{a^x}{\ln a} + C
         \end{equation*}
-        \begin{equation*}
+        \begin{equation*}   
             \int \sin x \, dx = -\cos x + C
         \end{equation*}
         \begin{equation*}
@@ -77,6 +77,18 @@
         \begin{equation*}
             \int \ln x \, dx = x \ln x - x + C
         \end{equation*}
+        \begin{align*}
+        \int \tan x \, dx = -\ln |\cos x| + C\\=\ln |\sec x| + C
+        \end{align*}
+        \begin{equation*}
+        \int \tan^2 x \, dx = \tan x - x + C   
+        \end{equation*}
+        \begin{equation*}
+        \int x \sin x \, dx = \sin x - x \cos x + C
+        \end{equation*}
+        \begin{equation*}
+        \int x \cos x \, dx = \cos x + x \sin x + C
+        \end{equation*}
 
     \end{multicols}
 
@@ -86,9 +98,22 @@
         \end{equation*}
 
 \subsection*{Derivadas}
-    \begin{multicols}{2}
+        \begin{center} 
+    \begin{multicols}{4}
+        \begin{align*}       
+        \textbf{Regla de la cadena:}\\ (f(g))' = f'g \cdot g'
+        \end{align*}
+        \begin{align*}       
+            \textbf{Regla del producto}\\ (f \cdot g)' = f'g + fg'
+        \end{align*}
         \begin{equation*}
             (k)' = 0
+        \end{equation*}
+        \begin{equation*}
+            (x)' = 1
+        \end{equation*}
+        \begin{equation*}
+            (x^2)' = 2x
         \end{equation*}
         \begin{equation*}
             (x^n)' = nx^{n-1}
@@ -124,5 +149,59 @@
             (\frac{1}{x})' = -\frac{1}{x^2}
         \end{equation*} 
     \end{multicols}
+\end{center}
+    \newpage
 
-\end{document}
+    \subsection*{Identidades trigonométricas}
+    \begin{multicols}{3}
+        \begin{equation*}
+            \sin^2 x + \cos^2 x = 1
+        \end{equation*}
+        \begin{equation*}
+            \tan x = \frac{\sin x}{\cos x}
+        \end{equation*}
+        \begin{equation*}
+            \cot x = \frac{\cos x}{\sin x}
+        \end{equation*}
+        \begin{equation*}
+            \sec x = \frac{1}{\cos x}
+        \end{equation*}
+        \begin{equation*}
+            \csc x = \frac{1}{\sin x}
+        \end{equation*}
+        \begin{equation*}
+            \sin 2x = 2 \sin x \cos x
+        \end{equation*}
+        \begin{equation*}
+            \cos 2x = \cos^2 x - \sin^2 x
+        \end{equation*}
+        \begin{equation*}
+            \cos 2x = 2 \cos^2 x - 1
+        \end{equation*}
+        \begin{equation*}
+            \cos 2x = 1 - 2 \sin^2 x
+        \end{equation*}
+        \begin{equation*}
+            \sin^2 x = \frac{1 - \cos 2x}{2}
+        \end{equation*}
+        \begin{equation*}
+            \cos^2 x = \frac{1 + \cos 2x}{2}
+        \end{equation*}
+        \begin{equation*}
+        \tan^2 x +1 = \sec^2 x
+        \end{equation*}
+        \begin{equation*}
+            \cot^2 x + 1 = \csc^2 x
+        \end{equation*}
+    \end{multicols}
+
+    \subsection*{Propiedades}
+    \begin{multicols}{2}
+        \begin{equation*}
+            \scalebox{1.5}{$\frac{u^{\frac{3}{5}}}{\frac{3}{5}} = \frac{5}{3}u^{\frac{3}{5}}$}
+        \end{equation*}
+        \begin{equation*}
+            \scalebox{1.5}{$\frac{1}{u^{2/5}} = u^{-2/5}$}
+        \end{equation*}
+    \end{multicols}
+        \end{document}
