@@ -1,0 +1,128 @@
+\documentclass[a4paper,12pt,numbers=noenddot]{scrreprt}
+\setlength{\headheight}{61.24997pt} % Definition der KOMA-Textklasse
+\usepackage{amsmath}
+\usepackage{tikz} % Add this line to include the tikz package
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{ragged2e} % Add this line to include the ragged2e package
+\usepackage{multicol} % Add this line to include the multicol package
+\usepackage{amsfonts}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{Deshi}
+\fancyhead[CO,C]{Ecuaciones diferenciales - Apunte}
+\fancyhead[RO,R]{\today}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Add the logo in the header
+\lhead{\includegraphics[width=2cm]{LogoCat.png}} % Replace "logo.png" with the filename of your logo image
+
+\title{Formulas}
+
+% Contenido del documento
+\section*{Fórmulas básicas a recordar}
+\subsection*{Integrales inmediatas}
+    \begin{multicols}{2} % This starts a three-column layout
+        \begin{equation*}
+            \int k \, dx = kx + C
+        \end{equation*}
+        \begin{equation*}
+            \int x^n \, dx = \frac{x^{n+1}}{n+1} + C
+        \end{equation*}
+        \begin{equation*}
+            \int e^x \, dx = e^x + C
+        \end{equation*}
+        \begin{equation*}
+            \int \frac{1}{x} \, dx = \ln |x| + C
+        \end{equation*}
+        \begin{equation*}
+            \int a^x \, dx = \frac{a^x}{\ln a} + C
+        \end{equation*}
+        \begin{equation*}
+            \int \sin x \, dx = -\cos x + C
+        \end{equation*}
+        \begin{equation*}
+            \int \cos x \, dx = \sin x + C
+        \end{equation*}
+        \begin{equation*}
+            \int \cos 2x \, dx = \frac{\sin 2x}{2}  + C
+        \end{equation*}
+        \begin{equation*}
+            \int \sin 2x \, dx = -\frac{\cos 2x}{2} + C 
+        \end{equation*}
+        \begin{equation*}
+            \int \frac{1}{\cos^2 x} \, dx = \tan x + C
+        \end{equation*}
+        \begin{equation*}
+            \int \frac{1}{\sin^2 x} \, dx = -\cot x + C
+        \end{equation*}
+        \begin{equation*}
+            \int \sec x \, dx = \ln |\sec x + \tan x| + C
+        \end{equation*}
+        \begin{equation*}
+            \int \sec^2 x \, dx = \tan x + C
+        \end{equation*}
+        \begin{equation*}
+            \int \sec x \, \tan x \, dx = \sec x + C
+        \end{equation*}
+        \begin{equation*}
+            \int \ln x \, dx = x \ln x - x + C
+        \end{equation*}
+
+    \end{multicols}
+
+    \subsection*{Integral por partes}
+        \begin{equation*}
+            \int u \, dv = uv - \int v \, du
+        \end{equation*}
+
+\subsection*{Derivadas}
+    \begin{multicols}{2}
+        \begin{equation*}
+            (k)' = 0
+        \end{equation*}
+        \begin{equation*}
+            (x^n)' = nx^{n-1}
+        \end{equation*}
+        \begin{equation*}
+            (e^x)' = e^x
+        \end{equation*}
+        \begin{equation*}
+            (\ln |x|)' = \frac{1}{x}
+        \end{equation*}
+        \begin{equation*}
+            (a^x)' = a^x \ln a
+        \end{equation*}
+        \begin{equation*}
+            (\sin x)' = \cos x
+        \end{equation*}
+        \begin{equation*}
+            (\cos x)' = -\sin x
+        \end{equation*}
+        \begin{equation*}
+            (\tan x)' = \sec^2 x
+        \end{equation*}
+        \begin{equation*}
+            (\cot x)' = -\csc^2 x
+        \end{equation*}
+        \begin{equation*}
+            (\sec x)' = \sec x \tan x
+        \end{equation*}
+        \begin{equation*}
+            (\csc x)' = -\csc x \cot x
+        \end{equation*}
+        \begin{equation*}
+            (\frac{1}{x})' = -\frac{1}{x^2}
+        \end{equation*} 
+    \end{multicols}
+
+\end{document}
