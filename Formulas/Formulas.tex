@@ -12,7 +12,7 @@
 % Set up fancy header/footer
 \pagestyle{fancy}
 \fancyhead[LO,L]{Deshi}
-\fancyhead[CO,C]{Ecuaciones diferenciales - Apunte}
+\fancyhead[CO,C]{Ecuaciones diferenciales - Fórmulas}
 \fancyhead[RO,R]{\today}
 \fancyfoot[LO,L]{}
 \fancyfoot[CO,C]{\thepage}
@@ -29,8 +29,7 @@
 \title{Formulas}
 
 % Contenido del documento
-\section*{Fórmulas básicas a recordar}
-\subsection*{Integrales inmediatas}
+\section*{Integrales inmediatas}
     \begin{multicols}{2} % This starts a three-column layout
         \begin{equation*}
             \int k \, dx = kx + C
@@ -40,6 +39,9 @@
         \end{equation*}
         \begin{equation*}
             \int e^x \, dx = e^x + C
+        \end{equation*}
+        \begin{equation*}
+            \int e^{kx} \, dx = \frac{e^{kx}}{k} + C
         \end{equation*}
         \begin{equation*}
             \int \frac{1}{x} \, dx = \ln |x| + C
@@ -97,7 +99,7 @@
             \int u \, dv = uv - \int v \, du
         \end{equation*}
 
-\subsection*{Derivadas}
+\section*{Derivadas}
         \begin{center} 
     \begin{multicols}{4}
         \begin{align*}       
@@ -113,13 +115,16 @@
             (x)' = 1
         \end{equation*}
         \begin{equation*}
-            (x^2)' = 2x
+            (n x)' = x
         \end{equation*}
         \begin{equation*}
             (x^n)' = nx^{n-1}
         \end{equation*}
         \begin{equation*}
             (e^x)' = e^x
+        \end{equation*}
+        \begin{equation*}
+            (e^{kx})' = ke^{kx}
         \end{equation*}
         \begin{equation*}
             (\ln |x|)' = \frac{1}{x}
@@ -148,11 +153,18 @@
         \begin{equation*}
             (\frac{1}{x})' = -\frac{1}{x^2}
         \end{equation*} 
+        \begin{align*}
+            (x^{-2})' = -2x^{-3}\\
+            = -\frac{2}{x^3}
+        \end{align*}
+        \begin{equation*}
+            (\sqrt{x})' = \frac{1}{2\sqrt{x}}
+        \end{equation*}
     \end{multicols}
 \end{center}
     \newpage
 
-    \subsection*{Identidades trigonométricas}
+    \section*{Identidades trigonométricas}
     \begin{multicols}{3}
         \begin{equation*}
             \sin^2 x + \cos^2 x = 1
@@ -195,11 +207,33 @@
         \end{equation*}
     \end{multicols}
 
-    \subsection*{Propiedades}
+    \section*{Propiedades}
         \begin{equation*}
             \scalebox{1.5}{$\frac{u^{\frac{3}{5}}}{\frac{3}{5}} = \frac{5}{3}u^{\frac{3}{5}}$}
         \end{equation*}
         \begin{equation*}
             \scalebox{1.5}{$\frac{1}{u^{2/5}} = u^{-2/5}$}
         \end{equation*}
+        \begin{equation*}
+            \scalebox{1.5}{$^n \sqrt{u^m} = u^{m/n}$}
+        \end{equation*}    
+\section*{Teoremas de ecuaciones diferenciales}
+\subsection*{Teorema 1:}
+\begin{align*}
+    &\textbf{Resolución de una E.D. de variables separables:}\\
+    &\text{Dada la E.D. de variables separables M(x)\,dx + N(y)\,dy = 0, la solución es:}
+\end{align*}
+\begin{center}
+    \(\int M(x)\,dx + \int N(y)\,dy = C\)
+\end{center}
+\subsection*{Teorema 2:}
+\begin{align*}
+    &\textbf{Resolución de una E.D. homogénea}\\
+    &\text{Dada la E.D. homogénea M(x,y)\,dx + N(x,y)\,dy = 0, tomamos el cambio de variable y=ux,}\\ 
+    &\text{transformandola en una E.D. de variable separable}
+\end{align*}
+\begin{center}
+    \(y=ux\)\\
+    \(dy = u\,dx + x\,du\)
+\end{center}
         \end{document}
