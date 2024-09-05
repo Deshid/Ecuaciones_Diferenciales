@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.11)  3 SEP 2024 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.11)  4 SEP 2024 23:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -777,7 +777,7 @@ Package pdftex.def Info: LogoCat.png.jpg  used on input line 163.
 [1{C:/Users/Ashdr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
  <./LogoCat.png.jpg>]
-Overfull \hbox (23.71083pt too wide) detected at line 234
+Overfull \hbox (23.71083pt too wide) detected at line 242
 []
  []
 
@@ -785,7 +785,7 @@ Overfull \hbox (23.71083pt too wide) detected at line 234
 
 File: LogoCat.png.jpg Graphic file (type jpg)
 <use LogoCat.png.jpg>
-Package pdftex.def Info: LogoCat.png.jpg  used on input line 239.
+Package pdftex.def Info: LogoCat.png.jpg  used on input line 247.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
 [2] (Formulas.aux)
  ***********
@@ -814,7 +814,7 @@ hdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
 C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/Ashdr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on Formulas.pdf (2 pages, 203013 bytes).
+Output written on Formulas.pdf (2 pages, 203626 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
