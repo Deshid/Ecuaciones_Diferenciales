@@ -1,6 +1,6 @@
-PWD c:\Users\Ashdr\OneDrive\Documentos\GitHub\Fórmulas y EDO'S\Formulas
+PWD c:\Users\Ashdr\OneDrive\Documentos\GitHub\Ecuaciones_Diferenciales\Formulas
 INPUT C:\Users\Ashdr\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Ashdr\OneDrive\Documentos\GitHub\Fórmulas y EDO'S\Formulas\Formulas.tex
+INPUT c:\Users\Ashdr\OneDrive\Documentos\GitHub\Ecuaciones_Diferenciales\Formulas\Formulas.tex
 OUTPUT Formulas.log
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrreprt.cls
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrreprt.cls
@@ -214,11 +214,16 @@ INPUT C:\Users\Ashdr\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\LogoCat.png.jpg
 INPUT .\LogoCat.png.jpg
 INPUT .\LogoCat.png.jpg
+INPUT .\LogoCat.png.jpg
+INPUT .\LogoCat.png.jpg
+INPUT .\LogoCat.png.jpg
 INPUT Formulas.aux
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
+INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
@@ -235,5 +240,7 @@ INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\Ashdr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb

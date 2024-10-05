@@ -244,4 +244,44 @@
     \(y=ux\)\\
     \(dy = u\,dx + x\,du\)
 \end{center}
+
+\subsection*{Teorema 3:}
+\begin{align*}
+    &\textbf{Resolución de una E.D. exacta:}\\
+    &\text{Dada la E.D. exacta M(x,y)\,dx + N(x,y)\,dy = 0, existe una función F(x,y) tal que:}\\
+    &\frac{\partial F}{\partial x} = M(x,y) \quad \text{y} \quad \frac{\partial F}{\partial y} = N(x,y)
+\end{align*}
+
+\subsection*{Teorema 4:}
+\begin{align*}
+    &\textbf{Factores integrantes:}\\
+    &\text{Si la E.D. de la forma M(x,y)\,dx + N(x,y)\,dy = 0 no es exacta, entonces:}\\
+    &\textbf{A:} \quad \text{Si} \quad \frac{\frac{\partial M}{\partial y} - \frac{\partial N}{\partial x}}{N(x,y)} \quad \text{sólo depende de "x", entonces el factor integrante es:}\\
+    &\mu(x) = e^{\int \frac{\frac{\partial M}{\partial y} - \frac{\partial N}{\partial x}}{N(x,y)} \,dx}\\
+    &\textbf{B:} \quad \text{Si} \quad \frac{\frac{\partial N}{\partial x} - \frac{\partial M}{\partial y}}{M(x,y)} \quad \text{sólo depende de "y", entonces el factor integrante es:}\\
+    &\mu(y) = e^{\int \frac{\frac{\partial N}{\partial x} - \frac{\partial M}{\partial y}}{M(x,y)} \,dy}
+\end{align*}
+\subsection*{Teorema 5:}
+\begin{align*}
+    &\textbf{Resolución de una E.D. lineal de primer orden:}\\
+    &\text{Dada la E.D. lineal de primer orden:} \quad \frac{dy}{dx} + p(x)y = q(x), \quad \text{La solución es:}\\
+    &y = e^{-\int p(x)\,dx} \left( C + \int g(x) e^{\int p(x)\,dx} \,dx \right)
+\end{align*}
+\subsection*{Teorema 6:}
+\begin{align*}
+    &\textbf{Resolución de una E.D. Bernoulli}\\
+    &\text{Dada la E.D. de Bernoulli:} \quad \frac{dy}{dx} + p(x)y = q(x)y^n \quad (n \neq 1, \quad n\neq 0)\\
+    &\text{Tomamos el cambio de variable:} \quad u = y^{1-n}\\
+    &\text{Esto transforma la E.D. de Bernoulli en una E.D. lineal de primer orden.}
+\end{align*}
+\subsection*{Teorema 7:}
+\begin{align*}
+    &\textbf{Resolución de una E.D. Riccati}\\
+    &\text{Dada la E.D. de Riccati:} \quad \frac{dy}{dx} + a_2(x)y^2 + a_1(x)y + a_0(x)=0 \quad (a_0(x) \neq 0 \quad \wedge \quad a_2(x)\neq 0)\\
+    &\text{siendo} \quad y_{particular}(x) \quad \text{una solución, entonces:}\\
+    &\textbf{A:} \quad \text{Si tomamos el cambio de variable:} \quad y = y_{p}(x) + u\\
+    &\text{La E.D. de Riccati se transforma en una E.D. de Bernoulli.}\\
+    &\textbf{B:} \quad \text{Si tomamos el cambio de variable} \quad y = y_p(x) + \frac{1}{u}\\
+    &\text{La E.D. de Riccati se transforma en una E.D. lineal de primer orden.}
+\end{align*}
         \end{document}
