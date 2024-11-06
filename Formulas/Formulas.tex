@@ -284,4 +284,57 @@
     &\textbf{B:} \quad \text{Si tomamos el cambio de variable} \quad y = y_p(x) + \frac{1}{u}\\
     &\text{La E.D. de Riccati se transforma en una E.D. lineal de primer orden.}
 \end{align*}
+
+\newpage
+\section*{Ecuaciones diferenciales de orden superior}
+\subsection*{Teorema 1:}
+\begin{align*}
+    &\textbf{Teorema de existencia y unicidad}\\
+    &\text{Dada la E.D. P.V.I.}\\
+    &\quad a_n(x)y^{n}+...+a_0(x)y = h(x) \quad \text{con}\\
+    &\quad y(x_0) = y_1,\\
+    &\quad y'(x_0) = y_2,\\
+    &\quad y''(x_0) = y_3,\\
+    &\quad ...,\\
+    &\quad y^{(n-1)}(x_0) = y_n\\
+    &\text{Si las funciones} \quad a_n(x),...,a_0(x) \quad \text{son continuas en un intervalo abierto que contiene a} \quad x_0,\\
+    &\text{entonces existe una única solución de la E.D. en ese intervalo.}
+\end{align*}
+
+\subsection*{Teorema 2:}
+\begin{align*}
+    &\textbf{La solución del caso homohéneo es n-dimensional}\\
+    &\text{Dada la E.D. homogénea de orden n:}\\
+    &\quad a_n(x)y^{n}+...+a_0(x)y = 0\\
+    &\text{Si} \quad y_1(x),...,y_n(x) \quad \text{son soluciones linealmente independientes de la E.D. homogénea,}\\
+    &\text{entonces la solución general de la E.D. homogénea es:}\\
+    &\quad y(x) = c_1y_1(x)+...+c_ny_n(x)\\
+    &\text{donde} \quad c_1,...,c_n \quad \text{son constantes arbitrarias.}
+\end{align*}
+
+\subsection*{Teorema 3:}
+\begin{align*}
+    &\textbf{Solución de ecuaciones diferenciales homogéneas a coeficientes constantes}\\
+    &\text{Dada la E.D. homogénea de orden 2:}\\
+    &\quad a y'' + b y' + c y = 0\\
+    &\text{con polinomio característico:}\\
+    &\quad p(m) = m^2 + am + b = 0\\
+    &\text{Entonces se cumple que:}\\
+    &\textbf{A:} \quad \text{Si} \quad \alpha_1 \not = \alpha_2 \quad \text{con} \quad \alpha_1, \alpha_2 \quad \text{siendo raices reales y distintas,  entonces la solución general es:}\\
+    &\quad y_H(x) = c_1e^{\alpha_1 x} + c_2e^{\alpha_2 x}\\
+    &\textbf{B:} \quad \text{Si} \quad \alpha_1 = \alpha_2 = \alpha \quad \text{con} \quad \alpha \quad \text{siendo raíz real y doble, entonces la solución general es:}\\
+    &\quad y_H(x) = c_1e^{\alpha x} + c_2xe^{\alpha x}\\
+    &\textbf{C:} \quad \text{Si} \quad \alpha = \beta +- i \quad \text{(complejo "i") entonces la solución general homogénea es:}\\
+    &\quad y_H(x) = c_1 e^{\alpha x} \cos (\beta x) + c_2 e^{\alpha x} \sin (\beta x)
+\end{align*}
+
+\subsection*{Nota:}
+\begin{align*}
+    &\text{Respecto al siguiente discriminante:}\\
+    &\quad \Delta = b^2 - 4ac\\
+    &\text{Se cumple que:}\\
+    &\textbf{A:} \quad \text{Si} \quad \Delta > 0 \quad \text{entonces las raíces son reales y distintas.}\\
+    &\textbf{B:} \quad \text{Si} \quad \Delta = 0 \quad \text{entonces las raíces son reales y dobles.}\\
+    &\textbf{C:} \quad \text{Si} \quad \Delta < 0 \quad \text{entonces las raíces son complejas conjugadas.}
+\end{align*}
         \end{document}
