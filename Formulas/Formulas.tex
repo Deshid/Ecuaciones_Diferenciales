@@ -337,4 +337,82 @@
     &\textbf{B:} \quad \text{Si} \quad \Delta = 0 \quad \text{entonces las raíces son reales y dobles.}\\
     &\textbf{C:} \quad \text{Si} \quad \Delta < 0 \quad \text{entonces las raíces son complejas conjugadas.}
 \end{align*}
-        \end{document}
+
+\subsection*{Teorema 4:}
+\begin{align*}
+    &\textbf{Wronskeano}\\
+    &\text{Dadas las soluciones} \quad y_1(x),...,y_n(x) \quad \text{de una E.D. homogénea de orden n,}\\
+    &\text{el Wronskeano de estas soluciones es:}\\
+    &\quad W{[y_1(x),...,y_n(x)]} = Det \begin{vmatrix}
+        y_1(x) & y_2(x) & ... & y_n(x)\\
+        y_1'(x) & y_2'(x) & ... & y_n'(x)\\
+        ... & ... & ... & ...\\
+        y_1^{(n-1)}(x) & y_2^{(n-1)}(x) & ... & y_n^{(n-1)}(x)
+    \end{vmatrix}\\
+    &\text{Si} \quad W{[y_1(x),...,y_n(x)]} \not = 0 \quad \text{entonces las soluciones son linealmente independientes.}
+\end{align*}
+
+\subsection*{Teorema 5:}
+\begin{align*}
+    &\textbf{Fórmula de Abel (para comprobar/comparar)}\\
+    &\text{Dada la E.D. homogénea de orden "n":}\\
+    &\quad a_n(x)y^{(n)}+...+a_0(x)y = 0 \quad \quad \quad \text{NORMALIZADA, entonces:}\\
+    &\text{Si} \quad {[y_ 1(x), ..., y_n(x)]} \quad \text{son soluciones de la E.D. se cumple:}\\
+    &\quad {W[y_1(x),...,y_n(x)]} = C_0 e^{-\int a_{n-1}(x)\,dx}
+\end{align*}
+
+\subsection*{Corolario (Teorema 5:)}
+\begin{align*}
+    &\text{Para} \quad y'' + p(x)y' + q(x)y = 0 \\
+    &\text{Si} \quad y_1(x) \not 0 \text{es solución de la E.D. entonces:}\\
+    &\quad y_2(x) = y_1(x) \int \frac{e^{-\int p(x)\,dx}}{y_1^2(x)} \,dx\\
+    &\quad {y_1(x), y_2(x)} \quad \text{son soluciones linealmente independientes.}\\
+    &\text{Además la solución general de la E.D es:}\\
+    &\quad y_H(x) = c_1y_1(x) + c_2y_2(x)
+\end{align*}
+
+\subsection*{Teorema 6:}
+\begin{align*}
+    &\textbf{Método de variación de parámetros}\\
+    &\text{Dada la E.D. homogénea de orden 2:}\\
+    &\quad a y'' + p(x) y' + q(x) y = h(x)\\
+    &\text{Si} \quad y_H(x) = c_1y_1(x) + c_2y_2(x) \quad \text{es la solución general de la E.D. homogénea, entonces:}\\
+    &\text{Diremos que:}\\
+    &\quad y_p(x) = v_1(x)y_1(x) + v_2(x)y_2(x)\\
+    &\text{es una solución particular de la E.D. donde:}\\
+    &\quad v_1(x) = -\int \frac{y_2(x)h(x)}{W[y_1(x),y_2(x)]} \,dx \quad , \quad v_2(x) = \int \frac{y_1(x)h(x)}{W[y_1(x),y_2(x)]} \,dx
+\end{align*}
+
+\subsection*{Teorema 7:}
+\begin{align*}
+    &\textbf{Método de coeficientes variables}\\
+    &\text{El caso más conocido es la E.D de Euler}\\
+    &\quad a_n x^n y^(n) + a_{1} x y^(1) + ... + a_0 y = 0\\
+    &\quad a_n(\alpha x + \beta)^n y^(n) + a_{1}(\alpha x + \beta) y^(1) + ... + a_0 y = 0\\
+    &\quad u = \ln{\alpha x + \beta}\\
+    &\text{La idea es usar el cambio de variable para transformar la E.D. en una E.D. de coeficientes constantes.}\\
+    &\quad u= \ln x \quad \text{(es el cambio de variable más común)}
+\end{align*} 
+
+\subsection*{Teorema 8:}
+\begin{align*}
+    &\textbf{Método de coeficientes indeterminados:} \quad \text{Usaremos la siguiente tabla para apoyarnos:}\\
+\end{align*}
+
+\begin{tabular}{|c|c|}
+    \hline
+    Función & Término de la solución particular\\
+    \hline
+    \(1\) & \(D\)\\
+    \(x\) & \(D^2\)\\
+    \(x^n\) & \(D^{n+1}\)\\
+    \(e^{\alpha x}\) & \(D-\alpha\)\\
+    \(x^{n} e^{\alpha x}\) & \({(D - \alpha)}^{n+1}\)\\
+    \(\cos \beta x , \sin \beta x\) & \({(D^2 + \beta^2)}\)\\
+    \(x^n \cos \beta x , x^n \sin \beta x\) & \({(D^2 + \beta^2)}^{n+1}\)\\
+    \(e^{\alpha x} \cos \beta x , e^{\alpha x} \sin \beta x\) & \({(D - \alpha)}^2 + \beta^2\)\\
+    \(x^n e^{\alpha x} \cos \beta x , x^n e^{\alpha x} \sin \beta x\) & \({(D - \alpha)}^{n+2} + \beta^2\)\\
+    \hline
+\end{tabular}
+
+    \end{document}
